@@ -1,0 +1,515 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "lst573G2qk1H2EjQO9sJh",
+      "type": "rectangle",
+      "x": -219.82345260212628,
+      "y": 359.65816751387274,
+      "width": 454.3192786432561,
+      "height": 89.99999999999986,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1038059420,
+      "version": 932,
+      "versionNonce": 2128117148,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "At9P3qoPraEzdgf6sc2e7"
+        },
+        {
+          "id": "Vh5bhwkINViQ2JMJ3mq2c",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "At9P3qoPraEzdgf6sc2e7",
+      "type": "text",
+      "x": -111.34252421799823,
+      "y": 369.6581675138727,
+      "width": 237.357421875,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 675558428,
+      "version": 1119,
+      "versionNonce": 751554340,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556176,
+      "link": null,
+      "locked": false,
+      "text": "hoa-major-data/plans\n（培养方案）",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "lst573G2qk1H2EjQO9sJh",
+      "originalText": "hoa-major-data/plans\n（培养方案）",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "5tRFFladScNWfVlCOQKab",
+      "type": "rectangle",
+      "x": -311.25520833333326,
+      "y": 48.61197916666674,
+      "width": 1336.6666666666665,
+      "height": 446.6666666666665,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a2",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 710889628,
+      "version": 529,
+      "versionNonce": 179202588,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Vh5bhwkINViQ2JMJ3mq2c",
+      "type": "arrow",
+      "x": 83.09850304612382,
+      "y": 244.78996332008546,
+      "width": 71.75518047799369,
+      "height": 108.67321018400344,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a3",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1675812124,
+      "version": 1808,
+      "versionNonce": 223991204,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -71.75518047799369,
+          108.67321018400344
+        ]
+      ],
+      "startBinding": {
+        "elementId": "bwF32GzQDAKaciIyXuS5S",
+        "focus": 0.41418220681707346,
+        "gap": 6
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": false,
+      "lastCommittedPoint": null
+    },
+    {
+      "id": "hEzihfhcUAbLwU21kjcwV",
+      "type": "rectangle",
+      "x": -224.05276857643025,
+      "y": 66.85408449244255,
+      "width": 723.054327931046,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "transparent",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a4",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 776001948,
+      "version": 635,
+      "versionNonce": 1846724252,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "f4n_4mvwzrkyJ3_nzBK3Q"
+        }
+      ],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "f4n_4mvwzrkyJ3_nzBK3Q",
+      "type": "text",
+      "x": -204.52560461090724,
+      "y": 94.35408449244255,
+      "width": 684,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 1688946204,
+      "version": 821,
+      "versionNonce": 1749961380,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556177,
+      "link": null,
+      "locked": false,
+      "text": "培养方案自动维护（每学期由维护者维护）",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hEzihfhcUAbLwU21kjcwV",
+      "originalText": "培养方案自动维护（每学期由维护者维护）",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "nBYY8B-tM1eHR2WLXEZm4",
+      "type": "rectangle",
+      "x": 348.8073745672614,
+      "y": 352.1124261827688,
+      "width": 580.4303897543671,
+      "height": 98.33333333333337,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a6",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 739517084,
+      "version": 988,
+      "versionNonce": 230134556,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "qs3N9LcucatKEiiiIy7yi"
+        },
+        {
+          "id": "XgfzOaJwcJIBjKrCE68d5",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "qs3N9LcucatKEiiiIy7yi",
+      "type": "text",
+      "x": 396.3604600694449,
+      "y": 366.2790928494355,
+      "width": 485.32421875,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 992833308,
+      "version": 1253,
+      "versionNonce": 351622692,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556179,
+      "link": null,
+      "locked": false,
+      "text": "hoa-major-data/major_mapping.json\n（年份-专业与培养方案号的映射关系）",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "nBYY8B-tM1eHR2WLXEZm4",
+      "originalText": "hoa-major-data/major_mapping.json\n（年份-专业与培养方案号的映射关系）",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "bwF32GzQDAKaciIyXuS5S",
+      "type": "rectangle",
+      "x": -222.30373654385016,
+      "y": 166.55687062721336,
+      "width": 1167.6526119765883,
+      "height": 77.7777777777776,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a8",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 577317788,
+      "version": 1029,
+      "versionNonce": 1745801116,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "GcD5l0HvnpDWoZXZvFKKT"
+        },
+        {
+          "id": "Vh5bhwkINViQ2JMJ3mq2c",
+          "type": "arrow"
+        },
+        {
+          "id": "XgfzOaJwcJIBjKrCE68d5",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "GcD5l0HvnpDWoZXZvFKKT",
+      "type": "text",
+      "x": 311.547960069444,
+      "y": 182.94575951610216,
+      "width": 99.94921875,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 335108124,
+      "version": 1207,
+      "versionNonce": 1068429732,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556180,
+      "link": null,
+      "locked": false,
+      "text": "hoa-cli",
+      "fontSize": 36,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "bwF32GzQDAKaciIyXuS5S",
+      "originalText": "hoa-cli",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "rxibfNFHlPDMuCobRFpI7",
+      "type": "text",
+      "x": -151.77188110351494,
+      "y": 281.8346484049912,
+      "width": 168,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "aA",
+      "roundness": null,
+      "seed": 735048860,
+      "version": 905,
+      "versionNonce": 1565162524,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false,
+      "text": "抓取培养方案",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "抓取培养方案",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "XgfzOaJwcJIBjKrCE68d5",
+      "type": "arrow",
+      "x": 634.7790645731188,
+      "y": 244.78996332008546,
+      "width": 4.25751769928911,
+      "height": 106.22392094598217,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MR0dNgrO0IzZvKYN80wm2"
+      ],
+      "frameId": null,
+      "index": "aB",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 933167388,
+      "version": 1982,
+      "versionNonce": 1337975716,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1773123556150,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          4.25751769928911,
+          106.22392094598217
+        ]
+      ],
+      "startBinding": {
+        "elementId": "bwF32GzQDAKaciIyXuS5S",
+        "focus": -0.4641040650521032,
+        "gap": 6
+      },
+      "endBinding": {
+        "elementId": "nBYY8B-tM1eHR2WLXEZm4",
+        "focus": 0.006943088980283472,
+        "gap": 6
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": false,
+      "lastCommittedPoint": null
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

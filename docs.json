@@ -48,21 +48,12 @@
         ]
       },
       {
-        "tab": "技术文档",
+        "tab": "维护指南",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "架构",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "architecture/index"
             ]
           }
         ]
@@ -75,9 +66,9 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view"
-   ]
+      "copy",
+      "view"
+    ]
   },
   "footer": {
     "socials": {
