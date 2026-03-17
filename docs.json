@@ -64,7 +64,11 @@
           {
             "group": "架构",
             "pages": [
-              "contribution-guide/index"
+              "contribution-guide/index",
+              "contribution-guide/course-docs",
+              "contribution-guide/blog",
+              "contribution-guide/grades",
+              "contribution-guide/upload-materials"
             ]
           }
         ]
