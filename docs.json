@@ -50,9 +50,10 @@
       "view"
     ]
   },
-  "footer": {
-    "socials": {
-      "github": "https://github.com/hitsz-openauto"
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/hitsz-openauto"
     }
   },
   "appearance": {
