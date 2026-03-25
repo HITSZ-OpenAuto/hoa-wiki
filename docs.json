@@ -14,35 +14,13 @@
         "tab": "参与指南",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "快速上手",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "contribution-guide/index",
+              "contribution-guide/course-docs",
+              "contribution-guide/blog",
+              "contribution-guide/grades",
+              "contribution-guide/upload-materials"
             ]
           }
         ]
@@ -51,24 +29,11 @@
         "tab": "维护指南",
         "groups": [
           {
-            "group": "架构",
+            "group": "概览",
             "pages": [
-              "maintainer-guide/index"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "贡献指南",
-        "groups": [
-          {
-            "group": "架构",
-            "pages": [
-              "contribution-guide/index",
-              "contribution-guide/course-docs",
-              "contribution-guide/blog",
-              "contribution-guide/grades",
-              "contribution-guide/upload-materials"
+              "maintainer-guide/backend",
+              "maintainer-guide/frontend",
+              "maintainer-guide/automation"
             ]
           }
         ]
