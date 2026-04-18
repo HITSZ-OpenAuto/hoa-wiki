@@ -12,30 +12,21 @@
     "tabs": [
       {
         "tab": "参与指南",
-        "groups": [
-          {
-            "group": "快速上手",
-            "pages": [
-              "contribution-guide/index",
-              "contribution-guide/course-docs",
-              "contribution-guide/blog",
-              "contribution-guide/grades",
-              "contribution-guide/upload-materials"
-            ]
-          }
+        "pages": [
+          "contribution-guide/index",
+          "contribution-guide/course-docs",
+          "contribution-guide/blog",
+          "contribution-guide/grades",
+          "contribution-guide/upload-materials",
+          "contribution-guide/course-mapping"
         ]
       },
       {
         "tab": "维护指南",
-        "groups": [
-          {
-            "group": "概览",
-            "pages": [
-              "maintainer-guide/backend",
-              "maintainer-guide/frontend",
-              "maintainer-guide/automation"
-            ]
-          }
+        "pages": [
+          "maintainer-guide/backend",
+          "maintainer-guide/frontend",
+          "maintainer-guide/automation"
         ]
       }
     ]
