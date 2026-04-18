@@ -1,5 +1,5 @@
 ---
-title: '课程仓库映射'
+title: '培养方案与课程显示'
 description: '如何修改映射表以显示非仓库名称的课程页面'
 ---
 
@@ -11,7 +11,7 @@ description: '如何修改映射表以显示非仓库名称的课程页面'
 ## 课程沿革
 
 学校每年会有课程进行增删调整，部分课程会被另一门课程替换。
-对此，我们不可能对每一年新出现的课程都建一个仓库，对于修改较小的课程，我们选择沿用原有的仓库，通过课程代码映射的方式将不同课程代码映射到同一个仓库。
+对此，我们不可能对每一年新出现的课程都新建一个仓库，对于修改较小的课程，我们选择沿用原有的仓库，通过课程代码映射的方式将不同课程代码映射到同一个仓库。
 
 以下是截止 2026 年 4 月一些课程沿革举例：
 
@@ -40,14 +40,16 @@ description: '如何修改映射表以显示非仓库名称的课程页面'
 - 值 (Value): str
     - 对应的 OpenAuto 仓库 ID
 
-对于新加入的课程，一般只需要将 `课程代码` 填入 `表名` ，将 `对应的 OpenAuto 仓库名` 填入 `值` ， `键` 保持默认的 `DEFAULT` 即可。注意，表名的字符串无需 ""，而值的字符串需要使用 "" 包围。
+对于新加入的课程，一般只需要将`课程代码`填入`表名`，将 `对应的 OpenAuto 仓库名`填入`值`，`键`保持默认的 `DEFAULT` 即可。注意，表名的字符串无需 ""，而值的字符串需要使用 "" 包围。
 
-如：对于 25 级 COMP1013 计算思维与实践，课程仓库为 COMP1011，则映射表如下：
+如：对于 25 级 COMP1013 计算思维与实践，课程仓库为 `COMP1011`，则映射表如下：
 
-> [COMP1013]
->
-> DEFAULT = "COMP1011"
+```toml
+[COMP1013]
+DEFAULT = "COMP1011"
+```
 
+> [!TIP]
 > 需要修改`键`的情况：
 >
 > 课程代码曾用于其他课程，需要不同培养方案号来区分不同专业的课程。
@@ -55,3 +57,7 @@ description: '如何修改映射表以显示非仓库名称的课程页面'
 > 如 MATH1011 数学分析，曾用作大数据专业的数学分析课程，现用作非数学系的高等数学课程。
 >
 > 此时培养方案号不能使用默认，需要在 [hoa-major-data/major_mapping.json](https://github.com/HITSZ-OpenAuto/hoa-major-data/blob/main/major_mapping.json) 中查找到对应年级专业的培养方案号填入。
+
+## 新建仓库
+
+如果你发现某门课的课程在[培养方案](https://github.com/HITSZ-OpenAuto/hoa-major-data/tree/main/plans)中，但是 HOA 中并没有建立对应的课程仓库，请在仓库 [hoa-major-data](https://github.com/HITSZ-OpenAuto/hoa-major-data) 中[提交 issue](https://github.com/HITSZ-OpenAuto/hoa-major-data/issues/new/choose)。HOA 维护者会帮忙创建仓库。
