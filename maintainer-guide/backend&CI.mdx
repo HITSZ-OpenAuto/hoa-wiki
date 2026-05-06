@@ -48,7 +48,7 @@ jobs:
 其实仓库内 CI 并没有实质的逻辑，它不过是在 `call_reusable_workflow` **复用**（uses）了一个工作流。这个过程类似于函数，将**重复的逻辑**抽离出来方便调用。函数内逻辑在下一小节讲解。
 
 > [!TIP]
-> 在 HOA 早期，仓库内 CI 是有实质内容的——这就带来一个问题，当 HOA 的构建步骤有变化，所有仓库都需要更新这些 CI 文件。如今的 `repos-management` 仓库里还有用于批量更新 CI 脚本的 [shell 脚本]( https://github.com/HITSZ-OpenAuto/repos-management/blob/main/scripts/add_workflow.sh)
+> 在 HOA 早期，仓库内 CI 是有实质内容的——这就带来一个问题，当 HOA 的构建步骤有变化，所有仓库都需要更新这些 CI 文件。如今的 `repos-management` 仓库里还有用于批量更新 CI 脚本的 [shell 脚本](https://github.com/HITSZ-OpenAuto/repos-management/blob/main/scripts/add_workflow.sh)
 >
 > 时代的眼泪～
 
@@ -59,23 +59,22 @@ jobs:
 
 ### 可复用 CI 逻辑
 
-仓库内 CI 调用的是 `uses: HITSZ-OpenAuto/repos-management/.github/workflows/reusable_worktree_generate.yml@main`， GitHub Actions 执行时会自动找到这个文件，在 [这里](https://github.com/HITSZ-OpenAuto/repos-management/blob/main/.github/workflows/reusable_worktree_generate.yml)
+仓库内 CI 调用的是 `uses: HITSZ-OpenAuto/repos-management/.github/workflows/reusable_worktree_generate.yml@main`， GitHub Actions 执行时会自动找到这个文件，在 [这里](https://github.com/HITSZ-OpenAuto/repos-management/blob/main/.github/workflows/reusable_worktree_generate.yml)——该脚本看上去就很长、有内容。
 
-这脚本看上去就很长、有内容。我们只关注 CI 的部分，至于具体的功能实现会给出对应脚本地址，但不作讲解，有兴趣的读者可自行探索。
+我们只关注 CI 的部分，至于具体的功能实现会给出对应脚本地址，但不作讲解，有兴趣的读者可自行探索。
 
 #### README.md ⭤ README.toml 双向同步
 
-为方便通过其他方式同步，每个仓库用 `README.toml` 作为 `README.md` 的结构化存储，这就要求两者能够信息同步。修改时，既可以写人类友好的 markdown，也可以通过一些（可能的）结构化修改方式，借由程序修改 `README.toml`
+为方便通过其他方式同步，每个仓库用 `README.toml` 作为 `README.md` 的结构化存储，这就要求两者能够信息同步。修改时，既可以写人类友好的 markdown，也可以通过一些（可能的）结构化修改方式，借由程序修改 `README.toml`。
 
 这一 step 名称为 `RDME bidirectional autogen (format + sync + warning)`，所用到的脚本为 https://github.com/HITSZ-OpenAuto/repos-management/blob/main/scripts 下的 `rdme_autogen.py` 和 `readme_to_toml.py`。
 
 #### 仓库 worktree 构建
 
-这一步构建 `worktree.json`，包含仓库内所有文件的完整路径、大小、修改时间，方便前端直接构建「资源下载」页面的文件夹逻辑。注意这个文件在 worktree 分支。
+这一步构建 `worktree.json`，包含仓库内所有文件的完整路径、大小、修改时间，方便前端直接构建「资源下载」部分的文件夹逻辑。注意这个文件在 `worktree` 分支。
 
-所用的脚本为 https://github.com/HITSZ-OpenAuto/repos-management/blob/main/scripts/generate_worktree_info.py
+所用的脚本为 https://github.com/HITSZ-OpenAuto/repos-management/blob/main/scripts/generate_worktree_info.py。
 
 #### 更新仓库列表
 
-如上图所述，repos_list.txt 有所有课程仓库列表。这个列表目前也会在每一次触发时更新。在 `Trigger Update Repositories List workflow` 这一 step 中完成。
-
+如上图所表示，repos_list.txt 包含所有课程仓库的代号。这个列表目前也会在每一次触发时更新。在 `Trigger Update Repositories List workflow` 这一 step 中完成。
