@@ -24,7 +24,7 @@
       {
         "tab": "维护指南",
         "pages": [
-          "maintainer-guide/backend",
+          "maintainer-guide/backend&CI",
           "maintainer-guide/frontend",
           "maintainer-guide/automation"
         ]
